@@ -1,0 +1,173 @@
+/* reset */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+button{
+  outline:none;
+  border:none;
+  cursor:pointer;
+}
+
+/* 헤더 */
+.header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+  
+.nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.nav li:hover {
+  cursor: pointer;
+}
+  
+.nav ul {
+  display: flex;
+}
+
+/* 자라 로고 */
+.header__left li {
+  margin-left: 200px;
+  font-size: 80px;
+  font-family: 'GFS Didot', serif;
+  color: black;
+}
+
+.header__left a { 
+  text-decoration: none;
+}
+  
+/* 상단 메뉴*/
+.header__right li {
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+/* 메인 */
+.main { 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  line-height: 3;
+}
+
+.main__top { 
+  display: flex;
+  flex-direction: column;
+} 
+
+.main__top input {
+  outline: none;
+  border:none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.input__wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main__input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.input__address{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address_label{
+  display: flex;
+  flex-direction: column;
+}
+
+.address-btn{
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 50px;
+}
+
+.main__checkbox {
+  display: flex;
+  align-items: center;
+}
+.main__checkbox input{
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.signup-btn{
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 50px;
+}
+
+.main__checkbox input{
+  background: black;
+}
+
+.main__checkbox span {
+  font-size: 14px;
+}
+
+.main__checkbox a {
+  color: grey;
+  font-size: 12px;
+}
+
+/* 푸터 */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 65px 0px;
+  color: black;
+  border-top: 1px solid #ccc;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.column__title {
+  margin-bottom: 50px;
+  opacity: 0.5;
+}
+
+.footer__column ul {
+  text-align: center;
+}
+
+.footer__column li {
+  margin-bottom: 15px;
+  list-style: none;
+  cursor: pointer;
+}
