@@ -1,30 +1,25 @@
-/* reset */
+/* 헤더 기준으로 리셋 */
 * {
     padding: 0px;
     margin: 0px;
-    color: #ccc;
   }
-  
-a {
-  text-decoration: none;
-}
 
+/* ul 점 없애기 */
 ul {
   list-style: none;
 }
 
 /* 헤더 */
 .header {
+  position: sticky;
   z-index: 1;
-  position: fixed;
-  width: 100vw;
   top: 0;
-  background-color: transparent;
+  width: 100vw;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid black;
 }
-  
+
+/* 메뉴바 */
 .nav {
   width: 100vw;
   display: flex;
@@ -32,25 +27,28 @@ ul {
   align-items: center;
 }
   
-.nav li:hover {
-  cursor: pointer;
-}
-  
 .nav ul {
   display: flex;
 }
 
-/* 자라 로고 */
+.nav li:hover {
+  cursor: pointer;
+}
+  
+/* 로고 */
 .header__left li {
   margin-left: 200px;
   font-size: 80px;
-  color: black;
   font-family: 'GFS Didot', serif;
+  color: black;
+}
+
+.header__left a { 
+  text-decoration: none;
 }
   
 /* 상단 메뉴*/
 .header__right li {
-  margin-right: 100px;
-  color: black;
+  margin-right: 30px;
   font-size: 16px;
 }
