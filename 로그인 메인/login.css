@@ -1,0 +1,79 @@
+/* 메인 */
+.main { 
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 100px;
+  line-height: 3;
+}
+
+.main__wrapper {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 로그인 글자*/
+.main__h1{
+  margin-bottom: 20px;
+}
+
+/* 각 입력창 */
+.main__input input { 
+  outline: none;
+  border:none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* 입력창 예시 */
+.main__input input::placeholder{
+  transition:top 500ms ease;
+  position:relative;
+  top:10px; 
+ }
+
+ .main__input input:focus::placeholder{
+  top:-14px;
+  font-size: smaller;
+ }
+
+ .main__input input:active::placeholder { 
+  display: inline-block;
+ }
+
+ /* 로그인 버튼 */
+.login-btn {
+  background-color: black;
+  width: 200px;
+  height: 40px;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.login-btn:hover{
+  opacity: 0.8;
+}
+
+/* 비밀번호 안내문 */
+.find-span{
+  color: #757575;
+  font-size: 14px;
+}
+
+/* 재설정 버튼 */
+.find-btn { 
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 8px;
+  font-size: 16px;  
+}

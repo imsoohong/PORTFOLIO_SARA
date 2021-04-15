@@ -1,63 +1,60 @@
-/* 헤더 기준으로 리셋 */
+/* reset */
 * {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
-/* ul 점 없애기 */
 ul {
-list-style: none;
+  list-style: none;
+}
+
+button{
+  outline:none;
+  border:none;
+  cursor:pointer;
 }
 
 /* 헤더 */
 .header {
-position: sticky;
-z-index: 1;
-top: 0;
-width: 100vw;
-display: flex;
-align-items: center;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
 }
-
-/* 메뉴바 */
+  
 .nav {
-width: 100vw;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.nav ul {
-display: flex;
-}
-
+  
 .nav li:hover {
-cursor: pointer;
+  cursor: pointer;
+}
+  
+.nav ul {
+  display: flex;
 }
 
-/* 로고 */
+/* 자라 로고 */
 .header__left li {
-margin-left: 200px;
-font-size: 80px;
-font-family: 'GFS Didot', serif;
-color: black;
+  margin-left: 200px;
+  font-size: 80px;
+  font-family: 'GFS Didot', serif;
+  color: black;
 }
 
 .header__left a { 
-text-decoration: none;
+  text-decoration: none;
 }
-
+  
 /* 상단 메뉴*/
 .header__right li {
-margin-right: 30px;
-font-size: 16px;
-}
-
-/* 회원가입 버튼 */
-.main-btn{
-  outline:none;
-  border:none;
-  cursor:pointer;
+  margin-right: 30px;
+  font-size: 16px;
 }
 
 /* 메인 */
@@ -87,14 +84,12 @@ font-size: 16px;
   flex-wrap: wrap;
 }
 
-/* 회원가입 개인정보 입력 */
 .main__input {
   display: flex;
   flex-direction: column;
   width: 400px;
 }
 
-/* 우편번호와 우편번호찾기 버튼 좌우 정렬 */
 .input__address{
   display: flex;
   flex-direction: row;
@@ -107,7 +102,6 @@ font-size: 16px;
   flex-direction: column;
 }
 
-/* 우편번호 찾기 버튼 */
 .address-btn{
   background-color: black;
   color: white;
@@ -119,8 +113,6 @@ font-size: 16px;
   display: flex;
   align-items: center;
 }
-
-/* 체크박스  */
 .main__checkbox input{
   width: 16px;
   height: 16px;
@@ -128,7 +120,6 @@ font-size: 16px;
   cursor: pointer;
 }
 
-/* 계정 만들기 버튼 */
 .signup-btn{
   background-color: black;
   color: white;
@@ -136,7 +127,10 @@ font-size: 16px;
   height: 50px;
 }
 
-/* 개인 정보 동의 */
+.main__checkbox input{
+  background: black;
+}
+
 .main__checkbox span {
   font-size: 14px;
 }

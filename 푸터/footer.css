@@ -1,0 +1,31 @@
+/* 푸터 */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 65px 0px;
+    color: black;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .column__title {
+    margin-bottom: 50px;
+    opacity: 0.5;
+  }
+  
+  .footer__column ul {
+    text-align: center;
+  }
+  
+  .footer__column li {
+    margin-bottom: 15px;
+    list-style: none;
+    cursor: pointer;
+  }

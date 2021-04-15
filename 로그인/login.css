@@ -62,88 +62,76 @@ font-size: 16px;
 
 /* 메인 */
 .main { 
-  max-width: 900px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 100px;
   line-height: 3;
 }
 
-.main__top { 
+.main__wrapper {
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
-} 
+  align-items: center;
+}
 
-.main__top input {
+.main__h1{
+  margin-bottom: 20px;
+}
+
+.main__input input { 
   outline: none;
   border:none;
   border-bottom: 1px solid black;
+  width: 300px;
+  height: 40px;
   font-size: 16px;
-  line-height: 2;
+  margin-bottom: 16px;
 }
 
-.input__wrapper{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+.main__input input::placeholder{
+  transition:top 500ms ease;
+  position:relative;
+  top:10px; 
+ }
 
-/* 회원가입 개인정보 입력 */
-.main__input {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-}
+ .main__input input:focus::placeholder{
+  top:-14px;
+  font-size: smaller;
+ }
 
-/* 우편번호와 우편번호찾기 버튼 좌우 정렬 */
-.input__address{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+ .main__input input:active::placeholder { 
+  display: inline-block;
+ }
 
-.address_label{
-  display: flex;
-  flex-direction: column;
-}
-
-/* 우편번호 찾기 버튼 */
-.address-btn{
+.login-btn {
   background-color: black;
+  width: 200px;
+  height: 40px;
   color: white;
-  width: 180px;
-  height: 50px;
-}
-
-.main__checkbox {
-  display: flex;
-  align-items: center;
-}
-
-/* 체크박스  */
-.main__checkbox input{
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
+  outline: none;
+  border: none;
   cursor: pointer;
+  margin: 20px 0;
+  font-size: 16px;
 }
 
-/* 계정 만들기 버튼 */
-.signup-btn{
-  background-color: black;
-  color: white;
-  width: 180px;
-  height: 50px;
+.login-btn:hover{
+  opacity: 0.8;
 }
 
-/* 개인 정보 동의 */
-.main__checkbox span {
+.find-span{
+  color: #757575;
   font-size: 14px;
 }
 
-.main__checkbox a {
-  color: grey;
-  font-size: 12px;
+.find-btn { 
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 8px;
+  font-size: 16px;  
 }
 
 /* 푸터 */
