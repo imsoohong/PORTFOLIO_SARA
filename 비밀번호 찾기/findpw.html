@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZARA</title>
-    <link rel="stylesheet" href="login.css" />
+    <title>비밀번호 찾기</title>
+    <link rel="stylesheet" href="findpw.css" />
     <link rel="icon" type="image/png" href="ZARA.jpg">
     <script src="https://kit.fontawesome.com/1e2ab4e9dc.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
@@ -29,18 +29,12 @@
     </header>
     <main class="main">
         <form class="main__wrapper">
-            <h1 class="main__h1">로그인</h1>
+            <span class="main__span">비밀번호 찾기</span>
             <div class="main__input">
-                <input type="id" placeholder="아이디" required />
+                <label for="email">이메일</label>
+                <input type="email">
             </div>
-            <div class="main__input">
-                <input type="password" placeholder="비밀번호" required />
-            </div>
-            <button type="submit" class="login-btn">로그인하기</button>
-            <div class="main__input">
-                <span class="find-span">비밀번호를 잊으셨나요?</span>
-                <button class="find-btn">재설정</button>
-            </div>
+            <button class="find-btn">이메일로 보내기</button>
         </form>
     </main>
     <footer class="footer">

@@ -13,12 +13,10 @@
   align-items: center;
 }
 
-/* 로그인 글자*/
 .main__h1{
   margin-bottom: 20px;
 }
 
-/* 각 입력창 */
 .main__input input { 
   outline: none;
   border:none;
@@ -29,7 +27,6 @@
   margin-bottom: 16px;
 }
 
-/* 입력창 예시 */
 .main__input input::placeholder{
   transition:top 500ms ease;
   position:relative;
@@ -45,30 +42,27 @@
   display: inline-block;
  }
 
- /* 로그인 버튼 */
 .login-btn {
   background-color: black;
-  width: 200px;
-  height: 40px;
+  width: 220px;
+  height: 50px;
   color: white;
   outline: none;
   border: none;
   cursor: pointer;
   margin: 20px 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .login-btn:hover{
   opacity: 0.8;
 }
 
-/* 비밀번호 안내문 */
 .find-span{
   color: #757575;
   font-size: 14px;
 }
 
-/* 재설정 버튼 */
 .find-btn { 
   border: none;
   outline: none;
