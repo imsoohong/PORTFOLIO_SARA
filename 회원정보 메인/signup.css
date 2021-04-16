@@ -1,0 +1,105 @@
+/* 메인 */
+.main { 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  line-height: 3;
+}
+
+.main__wrapper ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 주문내역 / 회원정보 */
+.main__top a { 
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.main__top a:hover { 
+  font-weight: bold;
+}
+
+/* 회원정보 줄 */
+.top__mypage { 
+  border-bottom: 1px solid black;
+}
+
+/*회원 정보 입력란 */
+.main__bottom { 
+  display: flex;
+  flex-direction: column;
+} 
+
+.main__bottom input {
+  outline: none;
+  border:none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.input__wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* 회원가입 개인정보 입력 */
+.main__input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+/* 우편번호와 우편번호찾기 버튼 좌우 정렬 */
+.input__address{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address_label{
+  display: flex;
+  flex-direction: column;
+}
+
+.address-btn, 
+.modify-btn { 
+  outline:none;
+  border:none;
+  cursor:pointer;
+}
+
+.address-btn:hover, 
+.modify-btn:hover { 
+  opacity: 0.8;
+}
+
+/* 우편번호 찾기 버튼 */
+.address-btn{
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 50px;
+}
+
+.modify-btn{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 50px;
+}
+
+.main__sub a{
+  text-decoration: none;
+  color:black;
+  color: #959595;
+  font-size: 14px;
+  font-weight: 500;
+}
+
