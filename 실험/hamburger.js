@@ -14,17 +14,17 @@ navbarToggleBtn.addEventListener('click', () => {
 const manMenu = document.querySelector('.man__menu');
 const womanMenu = document.querySelector('.woman__menu');
 
-const navbarMenu2 = document.querySelector('.navbar__menu2');
-const navbarMenu3 = document.querySelector('.navbar__menu3');
+const manList = document.querySelector('.man__list');
+const womanList = document.querySelector('.woman__list');
 
 manMenu.addEventListener('click', () => {
     // console.log('남자 메뉴 클릭');
-    navbarMenu2.classList.toggle('open');
-    navbarMenu3.classList.remove('open');
+    manList.classList.toggle('open');
+    womanList.classList.remove('open');
 });
 
 womanMenu.addEventListener('click', () => {
     // console.log('여자 메뉴 클릭');
-    navbarMenu3.classList.toggle('open');
-    navbarMenu2.classList.remove('open');
+    womanList.classList.toggle('open');
+    manList.classList.remove('open');
 });

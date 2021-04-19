@@ -203,15 +203,15 @@ li {
 }
 
  
-.navbar__menu2,
-.navbar__menu3{
+.man__list,
+.woman__list{
   display: none;
   margin-left: 35px;
 }
 
 .navbar__menu.open,
-.navbar__menu2.open,
-.navbar__menu3.open { 
+.man__list.open,
+.woman__list.open { 
   display: flex;
   flex-direction: column;
 }
