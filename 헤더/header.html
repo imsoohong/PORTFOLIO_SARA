@@ -12,9 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
     <header class="header">
         <nav class="nav">
+            <button class="navbar__toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul class="header__left">
                 <a href="#">
                     <li>ZARA</li>
@@ -27,6 +31,23 @@
             </ul>
         </nav>
     </header>
+    <div class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My Work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+    </div>
+    <script>
+        const navbarMenu = document.querySelector('.navbar__menu');
+
+        const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
+        navbarToggleBtn.addEventListener('click', () => {
+            navbarMenu.classList.toggle('open');
+            console.log('실행');
+        });
+    </script>
 </body>
 
 </html>
