@@ -68,18 +68,18 @@ ul {
    justify-content: space-between; 
 }
 
-.wrapper__a{
+.product__items{
   text-align: center;
   text-decoration: none;
   color: black;
   margin-bottom: 60px;
 }
 
-.wrapper__a img:hover { 
+.product__items img:hover { 
   opacity: 0.6;
 }
 
-.a__product {
+.product {
   display: flex;
   flex-direction: column;
   line-height: 1.8em;
