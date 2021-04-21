@@ -70,6 +70,31 @@ ul {
 
 .wrapper__a{
   text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 60px;
+}
+
+.wrapper__a img:hover { 
+  opacity: 0.6;
+}
+
+.a__product {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8em;
+}
+
+.back { 
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.a__product:hover {
+  display: inline-block;
 }
 
 /* 푸터 */
