@@ -61,16 +61,16 @@ ul {
   line-height: 3;
 }
 
-.product__wrapper{
+.product__wrapper {
   width: 100%;
   display: flex;
 }
 
-.product__image { 
+.product__image {
   width: 60%;
 }
 
-.product__intro{
+.product__intro {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ ul {
   margin: 40px 0;
 }
 
-.select__option{
+.select__option {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,10 +104,10 @@ ul {
 
 select {
   width: 100px;
-  padding: .8em .5em;
+  padding: 0.8em 0.5em;
   border: 1px solid #999;
   font-family: inherit;
-  background: url('arrow.jpg') no-repeat 95% 50%;
+  background: url("arrow.jpg") no-repeat 95% 50%;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -115,43 +115,43 @@ select {
   color: #959595;
   font-size: 14px;
 }
-  
+
 select::-ms-expand {
-    display: none;
+  display: none;
 }
 
-.product__btn{
-    margin: 16px;
-    display: flex;
+.product__btn {
+  margin: 16px;
+  display: flex;
 }
 
-.product-btn{
-    margin: 0 16px;
-    width: 150px;
-    height: 60px;
-    font-size: 14px;
-    outline: none;
-    border: none;
-    cursor:pointer;
+.product-btn {
+  margin: 0 16px;
+  width: 150px;
+  height: 60px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
-.buy-btn{
+.buy-btn {
   background-color: black;
   color: white;
 }
 
-.buy-btn:hover{
+.buy-btn:hover {
   opacity: 0.8;
 }
 
-.basket-btn{
+.basket-btn {
   background-color: transparent;
   color: black;
   border: 2px solid #222222;
   transition: all 0.3s;
 }
 
-.basket-btn:hover{
+.basket-btn:hover {
   background-color: black;
   color: white;
 }
@@ -160,7 +160,6 @@ select::-ms-expand {
   margin: 100px 0 0;
   text-align: center;
 }
-
 
 /* 푸터 */
 .footer {
