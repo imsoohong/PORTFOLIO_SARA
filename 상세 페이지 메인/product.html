@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZARA</title>
+    <link rel="stylesheet" href="product.css" />
+    <link rel="icon" type="image/png" href="ZARA.jpg" />
+    <script src="https://kit.fontawesome.com/1e2ab4e9dc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet" />
+    <script defer src="hamburger.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <button class="navbar__toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="header__left">
+                <a href="#">
+                    <li>ZARA</li>
+                </a>
+            </ul>
+            <ul class="header__right">
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li>장바구니</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 토글 -->
+    <div class="navbar__menu">
+        <li class="navbar__menu__item man__menu">남자</li>
+        <div class="man__list">
+            <li class="man__item">상의</li>
+            <li class="man__item">하의</li>
+            <li class="man__item">속옷</li>
+            <li class="man__item">신발</li>
+        </div>
+        <li class="navbar__menu__item woman__menu">여자</li>
+        <div class="woman__list">
+            <li class="woman__item">상의</li>
+            <li class="woman__item">하의</li>
+            <li class="woman__item">속옷</li>
+            <li class="woman__item">신발</li>
+        </div>
+    </div>
+    <!-- 끝 -->
+    <main class="main">
+        <div class="product__wrapper">
+            <div class="product__image">
+                <img src="product1.png" alt="">
+                <img src="product2.png" alt="">
+            </div>
+            <div class="product__intro">
+                <h2>상품명</h2>
+                <p>가격</p>
+                <p>사이즈</p>
+                <p>F 어깨 56 가슴 62 팔길이 65 총장 67.5</p>
+                <p>(사이즈 측정 방법에 따라 1-3cm의 오차가 있을 수 있습니다)</p>
+                <div class="product__select">
+                    <div class="select__option">
+                        <span>색상</span>
+                        <select>
+                            <option>선택</option>
+                            <option>블랙</option>
+                            <option>그레이</option>
+                            <option>네이비</option>
+                        </select>
+                    </div>
+                    <div class="select__option">
+                        <span>사이즈</span>
+                        <select>
+                            <option>선택</option>
+                            <option>95</option>
+                            <option>100</option>
+                            <option>105</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="product__btn">
+                    <button class="product-btn buy-btn ">구매하기</button>
+                    <button class="product-btn basket-btn">장바구니에 담기</button>
+                </div>
+            </div>
+        </div>
+        <div class="product__event">
+            <img src="event.png" alt="">
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__column">
+            <span class="column__title">상의</span>
+            <ul>
+                <li>상의</li>
+                <li>상의</li>
+                <li>상의</li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <span class="column__title">하의</span>
+            <ul>
+                <li>하의</li>
+                <li>하의</li>
+                <li>하의</li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <span class="column__title">아우터</span>
+            <ul>
+                <li>아우터</li>
+                <li>아우터</li>
+                <li>아우터</li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <span class="column__title">속옷</span>
+            <ul>
+                <li>속옷</li>
+                <li>속옷</li>
+                <li>속옷</li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <span class="column__title">신발</span>
+            <ul>
+                <li>신발</li>
+                <li>신발</li>
+                <li>신발</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
