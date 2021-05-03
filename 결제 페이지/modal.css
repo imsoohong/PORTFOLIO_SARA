@@ -1,0 +1,55 @@
+.modal{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+}
+
+/* 뒷 배경 어둡게 하기 */
+.md_overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%; height: 100%;
+    position: absolute;
+}
+
+/* 모달 컨텐츠 */
+.md_content {
+    width: 20%;
+    position: relative;
+    padding: 50px 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 6px 6px rgba(0, 0, 0, 0.20);
+}
+
+.md_content h1 {
+    margin:0; 
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal_text { 
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.process-btn {
+    width: 100%;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    height: 64px;
+}
+
+.process-btn:hover{
+    opacity: 0.8;
+}

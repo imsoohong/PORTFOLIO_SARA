@@ -7,10 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ZARA</title>
   <link rel="stylesheet" href="product.css" />
-  <link rel="icon" type="image/png" href="ZARA.jpg" />
-  <script src="https://kit.fontawesome.com/1e2ab4e9dc.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet" />
-  <script defer src="hamburger.js"></script>
+  <link rel="stylesheet" href="modal.css">
+  <script defer src="modal.js"></script>
 </head>
 
 <body>
@@ -57,7 +55,17 @@
         </div>
       </div>
     </div>
-    <button class="buy-btn">결제하기</button>
+    <button id="buy-btn">결제하기</button>
+    <div class="modal hidden">
+      <div class="md_overlay"></div>
+      <div class="md_content">
+        <h1>결제하기</h1>
+        <div class="modal_text">
+          정보를 작성하신 대로 결제를 진행하시겠습니까? 
+        </div>
+        <button class="process-btn"  onclick="location.href='#' ">진행하기</button>
+      </div>
+    </div>
   </main>
 </body>
 

@@ -106,7 +106,7 @@ ul {
   font-size: 15px;
 }
 
-.buy-btn {
+#buy-btn {
   width: 100%;
   outline:none;
   border:none;
@@ -117,6 +117,6 @@ ul {
   height: 64px;
 }
 
-.buy-btn:hover {
+#buy-btn:hover {
   opacity: 0.8;
 }
