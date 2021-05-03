@@ -9,10 +9,6 @@ ul {
   list-style: none;
 }
 
-body {
-  /* background-color: lightgrey; */
-}
-
 /* 최대 넓이 지정 */
 .container {
   margin: 0 auto;
@@ -23,7 +19,7 @@ body {
 
 .card {
   padding: 24px 16px;
-  border-bottom: 16px solid rgb(234, 234, 234);
+  border-bottom: 16px solid rgb(245, 245, 245);
 }
 
 .payment__title {
@@ -71,7 +67,7 @@ body {
 .product__total {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid rgb(245,245,245);
   padding-top: 24px;
 }
 
@@ -88,4 +84,39 @@ body {
 
 .buyer__number {
   font-size: 14px;
+}
+
+.method__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.method{
+  width: 43%;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+  padding: 16px;
+  line-height: 16px;
+  margin-bottom: 16px;
+}
+
+.method label { 
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.buy-btn {
+  width: 100%;
+  outline:none;
+  border:none;
+  cursor:pointer;
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  height: 64px;
+}
+
+.buy-btn:hover {
+  opacity: 0.8;
 }
