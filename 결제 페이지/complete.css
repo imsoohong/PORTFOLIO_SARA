@@ -1,0 +1,52 @@
+/* 헤더 기준으로 리셋 */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ul 점 없애기 */
+ul {
+  list-style: none;
+}
+
+/* 최대 넓이 지정 */
+.container {
+  margin: 0 auto;
+  width: 600px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 24px 16px;
+  border-bottom: 16px solid rgb(245, 245, 245);
+}
+
+.payment__title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.payment__complete{
+  text-align: center;
+  line-height: 2.4;
+}
+
+.etc__button{
+  margin-top: 24px;
+}
+
+.btn {
+  outline:none;
+  border:none;
+  cursor:pointer;
+  background-color: black;
+  color: white;
+  width: 30%;
+  padding: 24px;
+  font-size: 16px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}

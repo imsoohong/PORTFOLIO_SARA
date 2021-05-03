@@ -6,61 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ZARA</title>
+  <link rel="stylesheet" href="complete.css">
 </head>
 
 <body>
   <main class="container">
     <div class="payment__title card">ZARA</div>
-    <div class="payment__content card">
-      <div class="content__title">
-        <p class="card__title">주문 상품</p>
-      </div>
-      <div class="content__product">
-        <div class="product__img">
-          <a href="#"><img src="cloth1.png" alt="" /></a>
-        </div>
-        <div class="product__intro">
-          <p>mixed knit vest(5color)</p>
-          <span>색상: GRAY / 사이즈: F</span>
-          <p>수량 / 가격</p>
-        </div>
-      </div>
-      <div class="product__total">
-        <span> 상품 합계</span>
-        <span class="total-price">28,000원</span>
-      </div>
-    </div>
-    <div class="buyer card">
-      <p class="card__title">주문자</p>
-      <p class="buyer__name">임수홍</p>
-      <p class="buyer__number">010-3024-1744</p>
-    </div>
-    <div class="payment__method card">
-      <div class="card__title">결제 방법</div>
-      <div class="method__wrapper">
-        <div class="method">
-          <input type="radio" id="kakao" name="payment" checked><label for="kakao">카카오페이</label>
-        </div>
-        <div class="method">
-          <input type="radio" id="card" name="payment"><label for="card">신용 / 체크카드</label>
-        </div>
-        <div class="method ">
-          <input type="radio" id="bank" name="payment"><label for="bank">계좌 이체</label>
-        </div>
-        <div class="method ">
-          <input type="radio" id="vbank" name="payment"><label for="vbank">가상 계좌</label>
-        </div>
-      </div>
-    </div>
-    <button id="buy-btn">결제하기</button>
-    <div class="modal hidden">
-      <div class="md_overlay"></div>
-      <div class="md_content">
-        <h1>결제하기</h1>
-        <div class="modal_text">
-          정보를 작성하신 대로 결제를 진행하시겠습니까?
-        </div>
-        <button class="process-btn" onclick="location.href='#' ">진행하기</button>
+    <div class="payment__complete card">
+      <h1>결제 완료</h1>
+      <p>대단히 감사합니다.</p>
+      <div class="etc__button">
+        <button class="order-btn btn" onclick="location.href='#' ">주문내역</button>
+        <button class="home-btn btn" onclick="location.href='#' ">홈으로 가기</button>
+
       </div>
     </div>
   </main>
