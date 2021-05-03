@@ -2,7 +2,7 @@
 		const buyBtn = document.getElementById("buy-btn");
 		const modal = document.querySelector(".modal");
 		const overlay = modal.querySelector(".md_overlay");
-		const closeButton = modal.querySelector("button");
+		const closeBtn = document.getElementById("close-btn");
 		//동작함수
 		const openModal = () => {
 			modal.classList.remove("hidden");
@@ -12,4 +12,5 @@
 		}
 		//클릭 이벤트
 		buyBtn.addEventListener("click", openModal);
-		closeButton.addEventListener("click", closeModal);
+		closeBtn.addEventListener("click", closeModal);
+		overlay.addEventListener("click", closeModal);
