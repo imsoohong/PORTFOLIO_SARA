@@ -22,11 +22,13 @@ ul {
   border-bottom: 16px solid rgb(245, 245, 245);
 }
 
+/* 로고 이름 */
 .payment__title {
   font-size: 48px;
   text-align: center;
 }
 
+/* 주문 상품 */
 .content__product {
   margin-bottom: 24px;
 }
@@ -37,6 +39,7 @@ ul {
   margin-bottom: 24px;
 }
 
+/* 상품 정보 */
 .content__product {
   display: flex;
 }
@@ -47,6 +50,7 @@ ul {
   margin-right: 16px;
 }
 
+/* 상품 설명 */
 .product__intro {
   margin-bottom: 24px;
   display: flex;
@@ -64,6 +68,7 @@ ul {
   margin-bottom: 16px;
 }
 
+/* 상품 합계 */
 .product__total {
   display: flex;
   justify-content: space-between;
@@ -77,6 +82,7 @@ ul {
   font-weight: 800;
 }
 
+/* 주문자 정보 */
 .buyer__name {
   margin-bottom: 8px;
   font-size: 18px;
@@ -86,6 +92,7 @@ ul {
   font-size: 14px;
 }
 
+/* 주문 방법 */
 .method__wrapper{
   display: flex;
   flex-wrap: wrap;
@@ -106,6 +113,7 @@ ul {
   font-size: 15px;
 }
 
+/* 구매 버튼 */
 #buy-btn {
   width: 100%;
   outline:none;
