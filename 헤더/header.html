@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="ZARA.jpg">
     <script src="https://kit.fontawesome.com/1e2ab4e9dc.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+    <script defer src ="hamburger.js"></script>
 </head>
 
 
@@ -31,23 +32,24 @@
             </ul>
         </nav>
     </header>
-    <div class="navbar__menu">
-        <li class="navbar__menu__item">Home</li>
-        <li class="navbar__menu__item">About</li>
-        <li class="navbar__menu__item">Skills</li>
-        <li class="navbar__menu__item">My Work</li>
-        <li class="navbar__menu__item">Testimonial</li>
-        <li class="navbar__menu__item" data-link="#contact">Contact</li>
-    </div>
-    <script>
-        const navbarMenu = document.querySelector('.navbar__menu');
-
-        const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
-        navbarToggleBtn.addEventListener('click', () => {
-            navbarMenu.classList.toggle('open');
-            console.log('실행');
-        });
-    </script>
+        <!-- 토글 -->
+        <div class="navbar__menu">
+            <li class="navbar__menu__item man__menu">남자</li>
+            <div class="man__list">
+                <li class="man__item">상의</li>
+                <li class="man__item">하의</li>
+                <li class="man__item">속옷</li>
+                <li class="man__item">신발</li>
+            </div>
+            <li class="navbar__menu__item woman__menu">여자</li>
+            <div class="woman__list">
+                <li class="woman__item">상의</li>
+                <li class="woman__item">하의</li>
+                <li class="woman__item">속옷</li>
+                <li class="woman__item">신발</li>
+            </div>
+        </div>
+        <!-- 끝 -->
 </body>
 
 </html>
