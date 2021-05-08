@@ -18,14 +18,13 @@ a {
   position: sticky;
   z-index: 1;
   top: 0;
-  width: 100vw;
   display: flex;
   align-items: center;
 }
 
 /* 메뉴바 */
 .nav {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +60,7 @@ a {
 .main {
   /* max-width: 1400px; */
   margin: 0 auto 40px;
-  padding: 30px 0;
+  padding: 0;
   line-height: 3;
 }
 
@@ -141,37 +140,21 @@ a {
   opacity: 0.5;
 }
 
+
 /* 푸터 */
 .footer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
   padding: 65px 0px;
-  color: black;
-  border-top: 1px solid #ccc;
-}
-
-.footer__column {
+  color: #959595;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.footer p {
+  font-weight: 400;
   font-size: 14px;
+  margin-bottom: 16px;
 }
 
-.column__title {
-  margin-bottom: 50px;
-  opacity: 0.5;
-}
-
-.footer__column ul {
-  text-align: center;
-}
-
-.footer__column li {
-  margin-bottom: 15px;
-  list-style: none;
-  cursor: pointer;
-}
 
 /* ---------- */
 
@@ -229,4 +212,40 @@ li {
 .man__item:hover,
 .woman__item:hover {
   font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) { 
+
+.header__left a {
+  margin: 0;
+}
+  
+.header{
+  position: relative;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+}
+
+.header__right li, 
+.navbar__toggle-btn {
+  display: none;
+}
+
+.main{
+  padding: 0px;
+}
+
+
+.gallery{
+  grid-template-rows: repeat(2, 200px);
+}
+
+.footer{
+  padding: 24px;
+}
+
 }

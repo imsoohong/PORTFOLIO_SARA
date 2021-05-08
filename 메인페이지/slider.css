@@ -113,3 +113,20 @@
   -o-transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
   transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
 }
+
+@media screen and (max-width: 768px) { 
+
+  #slider-wrap{
+    height: 400px;
+  }
+
+  #slider li img{
+    height: 400px;
+  }
+
+  .slider-btns,
+  #slider-pagination-wrap {
+    display: none;
+  }
+
+}
