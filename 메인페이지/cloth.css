@@ -214,6 +214,29 @@ li {
   font-weight: bold;
 }
 
+/* Scroll */
+.arrow-up{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: black;
+  background-color: transparent;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease-in;
+  outline: none;
+  border: none;
+  cursor:pointer;
+}
+
+.arrow-up.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
 
 @media screen and (max-width: 768px) { 
 
@@ -246,6 +269,15 @@ li {
 
 .footer{
   padding: 24px;
+}
+
+.arrow-up { 
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  line-height: 50px;
+  right: 16px;
+  bottom: 16px;
 }
 
 }

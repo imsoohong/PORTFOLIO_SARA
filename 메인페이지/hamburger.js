@@ -1,6 +1,5 @@
 'use strict'
 
-
 const navbarMenu = document.querySelector('.navbar__menu');
 
 const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
