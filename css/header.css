@@ -27,6 +27,7 @@
   /* 로고 */
   .header__left li {
     font-size: 80px;
+    font-weight: 800;
     font-family: "GFsS Didot", serif;
     color: black;
   }
