@@ -1,0 +1,79 @@
+/* 회원가입 버튼 */
+.main-btn{
+  outline:none;
+  border:none;
+  cursor:pointer;
+}
+
+/* 메인 */
+.main { 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  line-height: 3;
+}
+
+.main__nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__nav a { 
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.nav__order { 
+  border-bottom: 1px solid black;
+}
+
+.main__top { 
+  display: flex;
+  flex-direction: column;
+} 
+
+.top__title{
+  border-bottom: 1px solid #959595;
+}
+
+.name, .qty, .price, .text__name a, .text__size{
+  display: inline-block;
+  color: #959595;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+.name {
+  width: 50%;
+}
+
+.qty {
+  width: 30%;
+  text-align: center
+}
+
+.top__content{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  border-bottom: 1px solid #959595;
+  align-items: center;
+}
+
+.product{
+  display: flex;
+  width: 50.6%;
+  height: 102.08px;
+}
+
+img {
+  width: 102.08px;
+  height: 100%;
+}
+
+.text{
+  padding-left: 20px;
+  width: 75%;
+}
