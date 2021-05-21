@@ -27,8 +27,7 @@ ul {
 .payment__title {
   font-size: 48px;
   text-align: center;
-  font-family: "GFsS Didot", serif;
-
+  font-family: 'GFS Didot', serif;    
 }
 
 /* 주문 상품 */
