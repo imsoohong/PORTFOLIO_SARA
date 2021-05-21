@@ -1,0 +1,28 @@
+/* 헤더 기준으로 리셋 */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+  /* ul 점 없애기 */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
