@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SARA</title>
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="hamburger.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+          <ul class="header__left">
+              <a href="main.html">
+                  <li>SARA</li>
+              </a>
+          </ul>
+          <ul class="header__right">
+              <li><a href="login.html">로그인</a></li>
+              <li><a href="signup.html">회원가입</a></li>
+              <li><a href="basket.html">장바구니</a></li>
+          </ul>
+      </nav>
+  </header>
+    <main class="main">
+      <div class="product__wrapper">
+        <div class="product__image">
+          <img src="img/product1.png" alt="" />
+          <img src="img/product2.png" alt="" />
+        </div>
+        <div class="product__intro">
+          <h2>상품명</h2>
+          <p>가격</p>
+          <p>사이즈</p>
+          <p>F 어깨 56 가슴 62 팔길이 65 총장 67.5</p>
+          <p>(사이즈 측정 방법에 따라 1-3cm의 오차가 있을 수 있습니다)</p>
+          <div class="product__select">
+            <div class="select__option">
+              <span>색상</span>
+              <select>
+                <option>선택</option>
+                <option>블랙</option>
+                <option>그레이</option>
+                <option>네이비</option>
+              </select>
+            </div>
+            <div class="select__option">
+              <span>사이즈</span>
+              <select>
+                <option>선택</option>
+                <option>95</option>
+                <option>100</option>
+                <option>105</option>
+              </select>
+            </div>
+          </div>
+          <div class="product__btn">
+            <button class="product-btn buy-btn" onclick="location.href='pay.html' ">구매하기</button>
+            <button class="product-btn basket-btn" onclick="location.href='basket.html' ">장바구니에 담기</button>
+          </div>
+        </div>
+      </div>
+      <div class="product__event">
+        <img src="img/event.png" alt="" />
+      </div>
+      <div class="product__main">상품 상세 정보 내용이 들어갈 곳</div>
+    </main>
+    <footer class="footer">
+      <div class="footer__intro">
+      <p>
+          상호명 : 상호명 | 대표: 임수홍 | 개인정보관리책임자 :
+          임수홍 | 전화번호 : 010-3024-1744 | 이메일 : ish94iwj@naver.com
+      </p>
+      <p>
+          주소: 울산광역시 남구 문수로 369번길 58 | 사업자등록번호: 000-00-00000
+          | 통신판매: 0000-울산옥동-0000 | 호스팅제공자: (주) 회사
+      </p>
+      </div>
+  </footer>
+  </body>
+</html>
