@@ -25,6 +25,7 @@ ul {
 .payment__title {
   font-size: 48px;
   text-align: center;
+  font-family: 'GFS Didot', serif;    
 }
 
 .payment__complete{

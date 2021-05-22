@@ -9,7 +9,7 @@
 .main { 
   max-width: 500px;
   margin: 0 auto;
-  padding: 100px;
+  padding: 50px;
   line-height: 3;
 }
 
@@ -57,3 +57,16 @@
 .modify-btn:hover{
   opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) { 
+
+  .container {
+    width: auto;
+  }
+  
+  .method{
+    width: 42.4%;
+  }
+  
+  
+  }
