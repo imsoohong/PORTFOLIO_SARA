@@ -16,7 +16,7 @@
 
 /* 모달 컨텐츠 */
 .md_content {
-    width: 20%;
+    width: 240px;
     position: relative;
     padding: 50px 100px;
     background-color: white;

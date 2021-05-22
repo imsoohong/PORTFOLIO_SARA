@@ -45,3 +45,24 @@
   .header__right a {
     color: black;
   }
+
+
+  @media screen and (max-width: 768px) { 
+
+    .header__left a {
+      margin: 0;
+    }
+      
+    .header{
+      position: relative;
+    }
+    
+    .nav{
+      display: flex;
+      justify-content: center;
+    } 
+    
+    .header__right li {
+      display: none;
+    }
+  }
