@@ -28,4 +28,26 @@
   display: flex;
   flex-direction: column;
   line-height: 1.8em;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  
+.main__wrapper{
+  flex-direction: column;
+  align-items: center;
+}
+
+.product__items{
+  margin: 0;
+}
+
+.product img {
+  max-height: 408px;
+}
+
+.product p {
+  display: none;
+}
+
 }
