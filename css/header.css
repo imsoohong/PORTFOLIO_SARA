@@ -45,8 +45,8 @@
   .header__right a {
     color: black;
   }
-
-
+  
+  
   @media screen and (max-width: 768px) { 
 
     .header__left a {
@@ -65,4 +65,5 @@
     .header__right li {
       display: none;
     }
+
   }
